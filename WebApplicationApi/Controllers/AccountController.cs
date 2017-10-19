@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity;
 namespace WebApplicationApi.Controllers
 {
   [Produces("application/json")]
-  [System.Web.Http.Route("api/Account")]
+  [Microsoft.AspNetCore.Mvc.Route("api/Account")]
   public class AccountController : ApiController
   {
     private AuthRepository _repo = null;
